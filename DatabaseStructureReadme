@@ -1,0 +1,7 @@
+# Draft on Database Structure.
+
+Database Name: #Name_You_Want#
+Table List :
+  List    : (INT PostNUM, INT NXTPostNUM)
+  Post    : (INT PostNUM, TEXT PostText, varchar(50) NickName, varchar(100) Title, INT commentCNT)
+  Comment : (INT CommentNUM, INT NXTCommentNUM, TEXT CommentText, varchar(50) NickName)
